@@ -1,0 +1,5 @@
+coffeemachine:
+  module: kaffetrakter
+  class: CoffeeMachine
+  switch: switch.fibaro_system_fgwpe_f_wall_plug_gen5_switch
+  sensor: sensor.fibaro_system_fgwpe_f_wall_plug_gen5_power

@@ -1,0 +1,22 @@
+logs:
+  error_log:
+    filename: /conf/logs/errors.log
+    log_generations: 1
+  main_log:
+    filename: /conf/logs/appdaemon.log
+    log_generations: 1
+appdaemon:
+  latitude: !secret latitude
+  longitude: !secret longitude
+  elevation: !secret elevation
+  time_zone: Europe/Oslo
+  plugins:
+    HASS:
+      type: hass
+      ha_url: !secret ha_url
+      token: !secret token
+http:
+  url: http://london:5050
+admin:
+api:
+hadashboard:

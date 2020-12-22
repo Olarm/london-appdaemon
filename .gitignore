@@ -1,0 +1,5 @@
+*.pyc
+*.swp
+secrets.yaml
+logs
+__pycache__
